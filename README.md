@@ -9,3 +9,7 @@ Accuracy achieved is greater than 87 %.
 - numClasses = 2
 - iterations = 100000
 - numDimensions = 300
+
+- Classified emotional tone of product reviews into positive / negative by creating a classifier that performs Sentiment Analysis.
+- Built Deep Learning model – LSTM in TensorFlow and Python, Accuracy achieved is greater than 87%.
+- Created IDs matrix, used Word2Vec and trained the model for the whole training Amazon dataset having more than 400,000 reviews.
