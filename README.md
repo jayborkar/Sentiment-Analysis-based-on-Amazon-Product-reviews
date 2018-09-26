@@ -10,13 +10,10 @@ Built Deep Learning model – LSTM in TensorFlow and Python, Accuracy achieved i
 - iterations = 100000
 
 ## Loading Data
-- Created our word vectors using a pretrained model like Word2Vec model or GloVe model.
+- Loaded pretrained word vectors using models like Word2Vec or GloVe.
 - Since the word vectors matrix using Word2Vec model is quite large (3.6 GB!), Used a much more manageable matrix that is trained using GloVe (Global Vectors for Word Representation), a similar word vector generation model. 
 - The matrix contains 400,000 word vectors, each with a dimensionality of 50.
-- Created the ids matrix for the whole training set
- 
-Training a word vector generation model (such as Word2Vec) or loading pretrained word vectors
-- Created IDs matrix, used Word2Vec model and trained the model for the whole training Amazon dataset having more than 400,000 reviews.
+- Created the ids matrix for the whole training  Amazon dataset having more than 400,000 reviews.
 
 ## RNN Model (LSTM) 
 Created our Tensorflow graph with hyperparameters :
